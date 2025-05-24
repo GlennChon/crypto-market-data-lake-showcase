@@ -1,0 +1,9 @@
+.venv
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+logs/*
+!logs/.gitkeep
+*.log
+*.tmp
