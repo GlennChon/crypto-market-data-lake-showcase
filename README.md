@@ -55,7 +55,7 @@ CRYPTO_DB_PORT=5432
 CRYPTO_DB_NAME=crypto_data
 CRYPTO_DB_USER=crypto
 CRYPTO_DB_PASS=securepass
-
+```
 
 ## Getting Started
 1. Build:
@@ -66,7 +66,6 @@ docker compose --build
 ```bash
 docker compose up -d
 ```
-
 3. Access the Airflow UI at:
 http://localhost:8080
 
@@ -93,3 +92,4 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 pip install -r requirements.txt
+```
